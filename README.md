@@ -37,8 +37,122 @@ For building and running the applicaion you need:
           	* 사용자 리뷰 답변 달기 / 수정 / 삭제
 
 
-## 📁 Code Package
+## 🧾 DB Table
+```SQL
+// 회원정보 테이블
+CREATE TABLE member(
+	user_name VARCHAR(20),
+	user_id VARCHAR(20),
+	user_pw VARCHAR(60),
+	user_mobile VARCHAR(60),
+	user_dob VARCHAR(60),
+	user_email VARCHAR(60),
+	user_snsC VARCHAR(60),
+	PRIMARY KEY(user_id,user_mobile)
+)CHARSET=UTF8;
 
+// 사업자정보 테이블
+CREATE TABLE admin(
+	admin_location VARCHAR(60),
+	region VARCHAR(50),
+  	admin_pw VARCHAR(60),
+  	business_number VARCHAR(60),
+  	admin_mobile VARCHAR(20),
+  	admin_id VARCHAR(20),
+  	admin_name`VARCHAR(20),
+  	PRIMARY KEY (admin_location,region,business_number,admin_mobile,admin_id)
+) CHARSET=UTF8;
+
+// 장바구니 관리 테이블
+CREATE TABLE cart(
+	rese_num VARCHAR(12),
+	
+	user_name VARCHAR(20),
+	user_id VARCHAR(20) NOT NULL,
+	user_mobile VARCHAR(60) NOT NULL,
+		
+	host_name VARCHAR(100),
+	room_name VARCHAR(40),
+	admin_name VARCHAR(20),
+	region VARCHAR(40),
+	room_info VARCHAR(400),
+	id_select_lod VARCHAR(20),
+	room_type VARCHAR(20),
+	room_price VARCHAR(20),
+	
+	children VARCHAR(20),
+	people VARCHAR(20),
+	check_in VARCHAR(20),
+	check_out VARCHAR(20),
+	people_plus VARCHAR(20),
+	PRIMARY KEY(user_id,room_name,check_in)	
+) CHARSET=UTF8;
+
+// 숙소 관리 테이블
+CREATE TABLE Rental(
+   host_name VARCHAR(20), //참조키 설정해주기
+   room_name VARCHAR(40),
+   room_img VARCHAR(200),
+   region VARCHAR(50),
+   min_people VARCHAR(50),
+   max_people VARCHAR(50),
+   room_pay VARCHAR(20),
+   room_num VARCHAR(20),
+   address VARCHAR(60),
+   info VARCHAR(60),
+   service VARCHAR(150),
+   Rental_type VARCHAR(20),
+   deadline_C VARCHAR(20),
+   sleep_type VARCHAR(20),
+   startTime VARCHAR(20), 
+   endTime VARCHAR(20), 
+   useTime VARCHAR(20),
+   Representative_photo VARCHAR(150),
+   admin_id VARCHAR(20),
+   admin_name VARCHAR(20)
+)CHARSET=UTF8;
+
+// 예약 관리 테이블
+CREATE TABLE reservation(
+	rese_num VARCHAR(12),
+	user_name VARCHAR(20),
+	user_id VARCHAR(20) NOT NULL,
+	user_mobile VARCHAR(60) NOT NULL,
+		
+	host_name VARCHAR(100),
+	room_name VARCHAR(40),
+	admin_name VARCHAR(20),
+	region VARCHAR(40),
+	room_info VARCHAR(400),
+	room_type VARCHAR(20),
+	room_price VARCHAR(20),
+	id_select_lod VARCHAR(20),
+	
+	representative_img VARCHAR(150),
+	children VARCHAR(20),
+	people VARCHAR(20),
+	check_in VARCHAR(20),
+	check_out VARCHAR(20),
+	click_check_in VARCHAR(20),
+	click_check_out VARCHAR(20),
+	people_plus VARCHAR(20),	
+	PRIMARY KEY(rese_num,room_name,check_in)
+) CHARSET=UTF8;
+
+// 후기 관리 테이블
+CREATE TABLE review(
+	user_id VARCHAR(20),
+	rese_num VARCHAR(20),
+	room_name VARCHAR(40),
+	host_name VARCHAR(100),
+	content VARCHAR(100),
+	write_date VARCHAR(60),
+	review_point INT,
+	admin_id VARCHAR(50),
+	admin_content VARCHAR(50),
+	admin_write_date VARCHAR(50)
+)CHARSET=UTF8;
+```
 
 <br/>
 
