@@ -31,8 +31,8 @@ that implements the user's accommodation reservation system and the business ope
           	* 사용자 리뷰 확인 / 삭제
           	* 사용자 리뷰 답변 달기 / 수정 / 삭제
 
-  * 박병록
-    	* 사업자 숙소 관리
+ * 박병록
+ 	* 사업자 숙소 관리
    		* 숙소 예약 현황 확인
        		* 객실 체크인 / 체크아웃 등록
 
