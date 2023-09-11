@@ -54,7 +54,8 @@ For building and running the applicaion you need:
 <br/>
 
 ## 🎞 DEMO
-# 사용자 계정 관리
+
+### 사용자 계정 관리
 ![Yanolja2](./README_img/슬라이드2.png)
 ![Yanolja3](./README_img/슬라이드3.png)
 ![Yanolja4](./README_img/슬라이드4.png)
@@ -62,7 +63,7 @@ For building and running the applicaion you need:
 ![Yanolja6](./README_img/슬라이드6.png)
 ![Yanolja7](./README_img/슬라이드7.png)
 
-# 사용자 숙소 예약
+## 사용자 숙소 예약
 ![Yanolja8](./README_img/슬라이드8.png)
 ![Yanolja9](./README_img/슬라이드9.png)
 ![Yanolja10](./README_img/슬라이드10.png)
