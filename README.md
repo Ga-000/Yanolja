@@ -89,3 +89,6 @@ For building and running the applicaion you need:
 
 ## 사업자 신규 숙소 등록
 ![Yanolja19](./README_img/슬라이드19.png)
+![Yanolja20](./README_img/슬라이드20.png)
+![Yanolja21](./README_img/슬라이드21.png)
+![Yanolja22](./README_img/슬라이드22.png)
