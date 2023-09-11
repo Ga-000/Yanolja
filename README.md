@@ -1,4 +1,4 @@
-# 🎵 Yanolja Project 🎵
+# 🏠 Yanolja Project 🏠
 This is a **Yanolja Project** 
 that implements the user's accommodation reservation system and the business operator's accommodation registration and management system.
 
@@ -54,4 +54,10 @@ For building and running the applicaion you need:
 <br/>
 
 ## 🎞 DEMO
-![MusicPlayer](https://github.com/Ga-000/MusicPlayer/assets/134590236/9ab2a938-f9d9-4cb9-b175-918370d726c4)
+# 사용자 계정 관리
+![Yanolja2](./README_img/슬라이드2.png)
+![Yanolja2](./README_img/슬라이드2.png)
+![Yanolja2](./README_img/슬라이드2.png)
+![Yanolja2](./README_img/슬라이드2.png)
+![Yanolja2](./README_img/슬라이드2.png)
+![Yanolja2](./README_img/슬라이드2.png)
