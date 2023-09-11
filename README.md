@@ -2,6 +2,40 @@
 This is a **Yanolja Project** 
 that implements the user's accommodation reservation system and the business operator's accommodation registration and management system.
 
+**야놀자**를 주제로 숙박예약 시스템을 구현하는 프로젝트이다.
+
+<br/>
+
+## 🔊 개요
+- 프로젝트명 : Yanolja Project
+- 프로젝트 진행기간 : 2023.07.24 ~ 2023.08.28
+- 프로젝트 맴버 : 김가영, 민재홍, 박병록
+
+<br/>
+
+## 👨 프로젝트 역할 분담
+* 김가영(본인)
+  	* 사용자 회원가입 / 회원정보 수정 / 회원탈퇴
+  	* 사용자 숙소 예약
+ 		* 장바구니 담기 / 장바구니 삭제
+  		* 결제하기 - `포트원 - KG 이니시스`
+      		* 예약 확인 / 예약 취소
+	* 사용자 리뷰 작성 / 리뷰 수정 / 리뷰 삭제
+   
+ * 민재홍
+   	* 사업자 회원가입 / 회원정보 수정 / 회원탈퇴
+   	* 사업자 숙소 관리
+   		* 숙소 예약 현황 확인
+       		* 객실 체크인 / 체크아웃 등록
+        * 사업자 리뷰 관리
+          	* 사용자 리뷰 확인 / 삭제
+          	* 사용자 리뷰 답변 달기 / 수정 / 삭제
+
+  * 박병록
+    	* 사업자 숙소 관리
+   		* 숙소 예약 현황 확인
+       		* 객실 체크인 / 체크아웃 등록
+
 <br/>
 
 ## ⚙ Requirement
