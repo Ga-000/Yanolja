@@ -90,26 +90,26 @@ CREATE TABLE cart(
 
 /* 숙소 관리 테이블 */
 CREATE TABLE Rental(
-   host_name VARCHAR(20),  /* 참조키 설정해주기 */
-   room_name VARCHAR(40),
-   room_img VARCHAR(200),
-   region VARCHAR(50),
-   min_people VARCHAR(50),
-   max_people VARCHAR(50),
-   room_pay VARCHAR(20),
-   room_num VARCHAR(20),
-   address VARCHAR(60),
-   info VARCHAR(60),
-   service VARCHAR(150),
-   Rental_type VARCHAR(20),
-   deadline_C VARCHAR(20),
-   sleep_type VARCHAR(20),
-   startTime VARCHAR(20), 
-   endTime VARCHAR(20), 
-   useTime VARCHAR(20),
-   Representative_photo VARCHAR(150),
-   admin_id VARCHAR(20),
-   admin_name VARCHAR(20)
+	host_name VARCHAR(20),  /* 참조키 설정해주기 */
+	room_name VARCHAR(40),
+  	room_img VARCHAR(200),
+   	region VARCHAR(50),
+	min_people VARCHAR(50),
+	max_people VARCHAR(50),
+	room_pay VARCHAR(20),
+	room_num VARCHAR(20),
+	address VARCHAR(60),
+	info VARCHAR(60),
+	service VARCHAR(150),
+	Rental_type VARCHAR(20),
+	deadline_C VARCHAR(20),
+	sleep_type VARCHAR(20),
+	startTime VARCHAR(20), 
+	endTime VARCHAR(20), 
+	useTime VARCHAR(20),
+	Representative_photo VARCHAR(150),
+	admin_id VARCHAR(20),
+	admin_name VARCHAR(20)
 )CHARSET=UTF8;
 
 /* 예약 관리 테이블 */
@@ -152,6 +152,7 @@ CREATE TABLE review(
 	admin_content VARCHAR(50),
 	admin_write_date VARCHAR(50)
 )CHARSET=UTF8;
+
 ```
 
 <br/>
