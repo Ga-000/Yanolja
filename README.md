@@ -59,9 +59,9 @@ CREATE TABLE admin(
   	business_number VARCHAR(60),
   	admin_mobile VARCHAR(20),
   	admin_id VARCHAR(20),
-  	admin_name`VARCHAR(20),
+  	admin_name VARCHAR(20),
   	PRIMARY KEY (admin_location,region,business_number,admin_mobile,admin_id)
-) CHARSET=UTF8;
+)CHARSET=UTF8;
 
 /* 장바구니 관리 테이블 */
 CREATE TABLE cart(
@@ -86,7 +86,7 @@ CREATE TABLE cart(
 	check_out VARCHAR(20),
 	people_plus VARCHAR(20),
 	PRIMARY KEY(user_id,room_name,check_in)	
-) CHARSET=UTF8;
+)CHARSET=UTF8;
 
 /* 숙소 관리 테이블 */
 CREATE TABLE Rental(
