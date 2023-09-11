@@ -9,7 +9,7 @@ that implements the user's accommodation reservation system and the business ope
 ## 🔊 개요
 - 프로젝트명 : Yanolja Project
 - 프로젝트 진행기간 : 2023.07.24 ~ 2023.08.28
-- 프로젝트 맴버 : 김가영, 민재홍, 박병록 (3명)
+- 프로젝트 맴버 : 김가영, 민재홍, 박병록
 
 <br/>
 
