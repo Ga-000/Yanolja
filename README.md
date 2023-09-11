@@ -54,7 +54,7 @@ For building and running the applicaion you need:
 <br/>
 
 ## 🎞 DEMO
-[Yanolja 구현화면 정리](./README_img/야놀자 실행과정 정리.pdf)
+[Yanolja구현화면정리](./README_img/야놀자 실행과정 정리.pdf)
 
 ## 사용자 계정 관리
 ![Yanolja2](./README_img/슬라이드2.png)
