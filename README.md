@@ -1,8 +1,8 @@
-# 🏠 Yanolja Project 🏠
+# 🏠 Yanolja Reservation System 🏠
 This is a **Yanolja Project** 
 that implements the user's accommodation reservation system and the business operator's accommodation registration and management system.
 
-**야놀자**를 주제로 숙박예약 시스템을 구현하는 프로젝트이다.
+**야놀자**를 주제로 `숙박예약 시스템`을 구현하는 프로젝트이다.
 
 <br/>
 
