@@ -16,40 +16,29 @@ For building and running the applicaion you need:
 <br/>
 
 ## 🎮 기능
-* 음악 재생 창
-	* 음악재생버튼
-		* 첫 번째 클릭 시, 음악을 불러오면서 재생바의 시간이 0:00 에서 각 음악의 전체 재생시간으로 변경
-		* 두 번째 클릭 시, 음악 재생 
-	* 좋아요 기능
-		* '하트' 클릭을 통해 좋아요를 누름
-	* 담기 기능
-		* '+' 클릭을 통해 플레이 리스트에 추가/삭제
-	* 음악 재생 바
-		* 음악이 재생되는 과정/시간을 나타내는 슬라이드
-		* 원하는 음악 재생 위치로 이동 가능
+* 사용자
+	* 회원가입 / 회원정보 수정 / 회원탈퇴 
+	* 숙소 예약
+ 		* 장바구니 담기 / 장바구니 삭제
+  		* 결제하기 - `포트원 - KG 이니시스`
+      		* 예약 확인 / 예약 취소
+	* 리뷰 작성 / 리뷰 수정 / 리뷰 삭제		
 
+* 사업자
+	* 회원가입 / 회원정보 수정 / 회원탈퇴 
+	* 신규 숙소 등록
+ 		* 숙소 대표이미지 / 숙소 위치 / 숙소 특징 등록
+  		* 숙소 객실이미지 / 객실 서비스 등록
+	* 숙소 관리
+   		* 숙소 예약 현황 확인
+       		* 객실 체크인 / 체크아웃 등록
+        * 리뷰 관리
+          	* 사용자 리뷰 확인 / 삭제
+          	* 사용자 리뷰 답변 달기 / 수정 / 삭제
 
-## 🎮 Functions
-* Music Playback Window
-	* Music play button
-		* The first click changes the playback bar's time from 0:00 to the total playback time of each music
-		* The second click, play music!!
-	* Like button
-		* Click 'Heart' on the music they like
-	* Add button
-		* Add/Delete the music by clicking '+'
-* Progress bar
-	* Progress bar showing when music is played
-	* Move to the desired music playback location
-
-<br/>
 
 ## 📁 Code Package
-* musicPlay 패키지
-  > * main.java 
-  > * main.css  :  화면 디자인 CSS
-	> * musicPlay.fxml  :  음악 재생 창 구현
-	> * MusicPlayController.java  :  음악 재생 controller
+
 
 <br/>
 
