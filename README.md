@@ -1,16 +1,17 @@
 # 🎵 Yanolja Project 🎵
-This is a **Yanolja Project** that implements the user's accommodation reservation system and the business operator's accommodation registration and management system.
+This is a **Yanolja Project** 
+that implements the user's accommodation reservation system and the business operator's accommodation registration and management system.
 
 <br/>
 
 ## ⚙ Requirement
 For building and running the applicaion you need:
-* `eclipse`
+* `Spring Tool Suite 4`
   * jdk1.8.0_361
-  * JavaSE-1.8
-  * JavaFX
-* `Scenebuilder-8.5.0`
-  * FXML
+  * JavaSE-17
+  * STS4 3.1.3
+* `HeidiSQL-12.5.0.6677`
+  * MariaDB / MySQL
 
 <br/>
 
