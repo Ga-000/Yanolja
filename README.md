@@ -55,7 +55,7 @@ For building and running the applicaion you need:
 
 ## 🎞 DEMO
 
-### 사용자 계정 관리
+## 사용자 계정 관리
 ![Yanolja2](./README_img/슬라이드2.png)
 ![Yanolja3](./README_img/슬라이드3.png)
 ![Yanolja4](./README_img/슬라이드4.png)
@@ -63,6 +63,7 @@ For building and running the applicaion you need:
 ![Yanolja6](./README_img/슬라이드6.png)
 ![Yanolja7](./README_img/슬라이드7.png)
 
+<br/>
 ## 사용자 숙소 예약
 ![Yanolja8](./README_img/슬라이드8.png)
 ![Yanolja9](./README_img/슬라이드9.png)
@@ -71,12 +72,14 @@ For building and running the applicaion you need:
 ![Yanolja12](./README_img/슬라이드12.png)
 ![Yanolja13](./README_img/슬라이드13.png)
 
-# 사업자 계정 관리
+<br/>
+## 사업자 계정 관리
 ![Yanolja14](./README_img/슬라이드14.png)
 ![Yanolja15](./README_img/슬라이드15.png)
 ![Yanolja16](./README_img/슬라이드16.png)
 ![Yanolja17](./README_img/슬라이드17.png)
 ![Yanolja18](./README_img/슬라이드18.png)
 
-# 사업자 신규 숙소 등록
+<br/>
+## 사업자 신규 숙소 등록
 ![Yanolja19](./README_img/슬라이드19.png)
