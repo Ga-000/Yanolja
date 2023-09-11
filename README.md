@@ -64,6 +64,7 @@ For building and running the applicaion you need:
 ![Yanolja7](./README_img/슬라이드7.png)
 
 <br/>
+
 ## 사용자 숙소 예약
 ![Yanolja8](./README_img/슬라이드8.png)
 ![Yanolja9](./README_img/슬라이드9.png)
@@ -73,6 +74,7 @@ For building and running the applicaion you need:
 ![Yanolja13](./README_img/슬라이드13.png)
 
 <br/>
+
 ## 사업자 계정 관리
 ![Yanolja14](./README_img/슬라이드14.png)
 ![Yanolja15](./README_img/슬라이드15.png)
@@ -81,5 +83,6 @@ For building and running the applicaion you need:
 ![Yanolja18](./README_img/슬라이드18.png)
 
 <br/>
+
 ## 사업자 신규 숙소 등록
 ![Yanolja19](./README_img/슬라이드19.png)
