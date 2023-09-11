@@ -90,7 +90,7 @@ CREATE TABLE cart(
 
 /* 숙소 관리 테이블 */
 CREATE TABLE Rental(
-   host_name VARCHAR(20), //참조키 설정해주기
+   host_name VARCHAR(20),  /* 참조키 설정해주기 */
    room_name VARCHAR(40),
    room_img VARCHAR(200),
    region VARCHAR(50),
