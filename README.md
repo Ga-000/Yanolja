@@ -39,7 +39,7 @@ For building and running the applicaion you need:
 
 ## 🧾 DB Table
 ```SQL
-// 회원정보 테이블
+/* 회원정보 테이블 */
 CREATE TABLE member(
 	user_name VARCHAR(20),
 	user_id VARCHAR(20),
@@ -51,7 +51,7 @@ CREATE TABLE member(
 	PRIMARY KEY(user_id,user_mobile)
 )CHARSET=UTF8;
 
-// 사업자정보 테이블
+/* 사업자정보 테이블 */
 CREATE TABLE admin(
 	admin_location VARCHAR(60),
 	region VARCHAR(50),
@@ -63,7 +63,7 @@ CREATE TABLE admin(
   	PRIMARY KEY (admin_location,region,business_number,admin_mobile,admin_id)
 ) CHARSET=UTF8;
 
-// 장바구니 관리 테이블
+/* 장바구니 관리 테이블 */
 CREATE TABLE cart(
 	rese_num VARCHAR(12),
 	
@@ -88,7 +88,7 @@ CREATE TABLE cart(
 	PRIMARY KEY(user_id,room_name,check_in)	
 ) CHARSET=UTF8;
 
-// 숙소 관리 테이블
+/* 숙소 관리 테이블 */
 CREATE TABLE Rental(
    host_name VARCHAR(20), //참조키 설정해주기
    room_name VARCHAR(40),
@@ -112,7 +112,7 @@ CREATE TABLE Rental(
    admin_name VARCHAR(20)
 )CHARSET=UTF8;
 
-// 예약 관리 테이블
+/* 예약 관리 테이블 */
 CREATE TABLE reservation(
 	rese_num VARCHAR(12),
 	user_name VARCHAR(20),
@@ -139,7 +139,7 @@ CREATE TABLE reservation(
 	PRIMARY KEY(rese_num,room_name,check_in)
 ) CHARSET=UTF8;
 
-// 후기 관리 테이블
+/* 후기 관리 테이블 */
 CREATE TABLE review(
 	user_id VARCHAR(20),
 	rese_num VARCHAR(20),
