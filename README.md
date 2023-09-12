@@ -33,9 +33,9 @@ that implements the user's accommodation reservation system and the business ope
 
  * 박병록
  	* 신규 숙소 등록
-    		* 숙소 대표이미지 등록
-    		* 객실 서비스 등록 
-       	* 기존 숙소 관리
+   		* 숙소 대표이미지 등록
+       * 객실 서비스 등록 
+	* 기존 숙소 관리
 
 <br/>
 
